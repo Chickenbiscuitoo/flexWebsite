@@ -195,7 +195,18 @@ html, body {
     flex: 1;
     display: inline-flex;
     justify-content: center;
+    align-items: center;
+    gap: 15px;
     background-color: #1F2937;
     color: white;
-    padding: 30px;
+    padding: 15px;
+}
+
+#img-github {
+    width: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#img-github:hover {
+    transform: rotate(360deg) scale(1.2);
 }
